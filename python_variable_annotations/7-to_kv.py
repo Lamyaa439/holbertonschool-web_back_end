@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # 7-to_kv.py
 """
-This module have a type-annotated function to_kv 
+This module have a type-annotated function to_kv
 """
 from typing import Union, Tuple
 
