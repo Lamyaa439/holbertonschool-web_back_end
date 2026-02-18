@@ -4,6 +4,7 @@
 This module have type-annotated function
 """
 
+
 def add(a: float, b: float) -> float:
     """
     a type-annotated function add that takes a 
