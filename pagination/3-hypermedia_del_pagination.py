@@ -2,7 +2,6 @@
 """
 Module implementing deletion-resilient hypermedia pagination.
 """
-
 import csv
 from typing import Dict, List
 
@@ -13,7 +12,9 @@ class Server:
     DATA_FILE = "Popular_Baby_Names.csv"
 
     def __init__(self):
-        """Initialize Server with empty dataset and indexed dataset caches."""
+        """
+        Initialize Server with empty dataset and indexed dataset caches.
+        """
         self.__dataset = None
         self.__indexed_dataset = None
 
