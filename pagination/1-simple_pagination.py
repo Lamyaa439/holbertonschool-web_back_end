@@ -3,7 +3,6 @@
 Module that implements simple pagination for a dataset of baby names.
 """
 import csv
-import math
 from typing import List
 
 
@@ -53,5 +52,5 @@ class Server:
         start, end = index_range(page, page_size)
         dataset = self.dataset()
         if start >= len(dataset):
-            return[]
+            return []
         return dataset[start:end]
