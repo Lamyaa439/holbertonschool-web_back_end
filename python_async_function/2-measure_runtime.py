@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """Measure the runtime of four asynchronous comprehensions in parallel."""
 
 import asyncio
